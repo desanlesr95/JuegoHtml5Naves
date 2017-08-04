@@ -1,0 +1,30 @@
+.sombras{
+	width: 50px;
+	height: 50px;
+	background-color: blue;
+	position: absolute;
+	left: 80%; 
+	animation: girar 1s infinite;
+	transition: all 2s;
+	box-shadow: 100px 2px 5px cyan,
+	-100px 2px 5px green,
+	0px 100px 5px red,
+	0px -100px 5px purple;
+}
+
+canvas{
+	border: solid;
+}
+
+
+@keyframes girar{
+	0%{
+		transform: rotate(0deg);
+	}
+	10%,20%,30%{
+		border-radius: 40px;
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}

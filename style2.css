@@ -1,0 +1,13 @@
+.caja{
+	background-color: red;
+	padding: 20px;
+	width: 40px;
+	border: 10px solid blue;
+	margin: 120px;
+	display: inline;
+}
+.caja2{
+	background: green;
+	width: 120px;
+	display: inline;
+}
